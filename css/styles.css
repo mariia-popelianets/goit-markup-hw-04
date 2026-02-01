@@ -95,7 +95,7 @@ img {
   height: 4px;
   background: #404bbf;
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
 }
 .contact-address {
@@ -135,8 +135,8 @@ img {
   background-position: center;
   background-size: cover;
   background-color: #2e2f42;
-  padding: 188px 0 292px 0;
-
+  padding: 188px 0 188px 0;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .main__container {
@@ -146,7 +146,6 @@ img {
   align-items: center;
   gap: 48px;
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 .main-title {
@@ -400,8 +399,6 @@ img {
 .footer-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
   gap: 120px;
   max-width: 1440px;
   margin: 0 auto;
@@ -447,7 +444,8 @@ img {
 .footer-social-list {
   display: flex;
   gap: 16px;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   list-style: none;
 }
