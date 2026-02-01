@@ -280,8 +280,6 @@ img {
 .team-list-item {
   display: flex;
   width: 264px;
-  height: 428px;
-  padding: 0px 0px 32px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -295,10 +293,6 @@ img {
   border-radius: 0 0 4px 4px;
 }
 .team-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 232px;
   padding: 32px 16px;
 }
 .team-box .subsection-title,
@@ -311,7 +305,6 @@ img {
   justify-content: center;
   text-align: center;
   gap: 24px;
-  padding: 8px;
   list-style: none;
 }
 .social-link {
